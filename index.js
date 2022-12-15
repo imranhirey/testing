@@ -1,7 +1,7 @@
 let express=require('express')
 let app= express()
 app.get('/',(req,res)=>{
-    res.status(404)
+    res.send("i am working probably")
 })
 
-app.listen(8000)
+app.listen(80)
